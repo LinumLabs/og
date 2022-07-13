@@ -8,7 +8,7 @@ const defaultMeta = {
   siteName: 'Open Graph Generator',
   description: 'Made for personal use by Theodorus Clarence',
   url: 'https://og.thcl.dev',
-  image: 'https://og.thcl.dev/images/logo.jpg',
+  image: 'https://og-linum.vercel.app/open-graph-logo.png',
   type: 'website',
   robots: 'follow, index',
 };

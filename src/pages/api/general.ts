@@ -22,9 +22,11 @@ export default withOGImage<'query', keyof typeof GeneralQueryEnum>({
       logoHeight,
     }) => {
       const query = {
-        siteName: siteName ?? 'Site Name',
+        siteName: siteName ?? 'LinumLabs',
         description: description ?? 'Description',
-        logo: logo ?? 'https://og.thcl.dev/images/logo.jpg',
+        logo:
+          logo ??
+          'https://www.linumlabs.com/favicon/android-chrome-144x144.png',
         theme: theme ?? 'dark',
         templateTitle,
         logoWidth: logoWidth ?? '100',

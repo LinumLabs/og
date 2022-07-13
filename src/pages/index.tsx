@@ -14,14 +14,14 @@ export default function HomePage() {
           <div className='flex flex-col items-center justify-center min-h-screen text-center layout'>
             <h1>Open Graph Generator</h1>
             <p className='mt-2 text-sm text-gray-600'>
-              Made for personal use using{' '}
+              Made using{' '}
               <CustomLink href='https://github.com/neg4n/next-api-og-image'>
                 next-api-og-image
               </CustomLink>
             </p>
             <div className='flex flex-wrap gap-2 mt-4 text-sm text-gray-500'>
               <ButtonLink href='https://github.com/theodorusclarence/og'>
-                See the repository
+                See the original repository
               </ButtonLink>
               <ButtonLink variant='light' href='/builder'>
                 Link Builder
@@ -29,7 +29,7 @@ export default function HomePage() {
             </div>
 
             <footer className='absolute text-gray-800 bottom-2'>
-              © {new Date().getFullYear()} By{' '}
+              Credit to
               <CustomLink href='https://theodorusclarence.com?ref=og'>
                 Theodorus Clarence
               </CustomLink>
