@@ -29,7 +29,7 @@ export default function HomePage() {
             </div>
 
             <footer className='absolute text-gray-800 bottom-2'>
-              Credit to
+              Credit to{' '}
               <CustomLink href='https://theodorusclarence.com?ref=og'>
                 Theodorus Clarence
               </CustomLink>
